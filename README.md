@@ -16,7 +16,7 @@ The video converter isnt converting shit. It basically combines the binaries of 
 - Hulu
 - Max
 - Disney +
-- TikTok\n
+- TikTok                                                                                                                                                                                                                                                                          
   And countless others all rely on those 800k code files for their companies. If a program you know processes media: audio, video, images, subtitles, then there is a 99.9999999999% chance it uses ffmpeg. Most of these companies give credit. MediaHuman? No credit at all.
   ## Why not go for a bigger company like Wondershit or Adobe?
   A few reasons.
