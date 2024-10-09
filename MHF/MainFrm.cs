@@ -46,5 +46,16 @@ namespace MHF
             used = 0;
             loadvalues();
         }
+
+        private void inf_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("This mode will make it so that you have 2+ Billion files to convert before needing to pay. Continue?", "oooo", buttons:MessageBoxButtons.YesNo) == DialogResult.Yes);
+            {
+                Process.Start("taskkill", "/f /IM MHVideoConverter.exe");
+                ck.SetValue("FilesDone", Int32.MinValue + 6969);
+                used = 0;
+                loadvalues();
+            }
+        }
     }
 }

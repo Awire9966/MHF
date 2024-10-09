@@ -32,6 +32,7 @@
             this.fu = new System.Windows.Forms.Label();
             this.thewordstatus_duh = new System.Windows.Forms.Label();
             this.status = new System.Windows.Forms.Label();
+            this.inf = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rb
@@ -72,11 +73,22 @@
             this.status.TabIndex = 3;
             this.status.Text = "Ready!";
             // 
+            // inf
+            // 
+            this.inf.Location = new System.Drawing.Point(12, 104);
+            this.inf.Name = "inf";
+            this.inf.Size = new System.Drawing.Size(286, 23);
+            this.inf.TabIndex = 4;
+            this.inf.Text = "INFINITY MODE";
+            this.inf.UseVisualStyleBackColor = true;
+            this.inf.Click += new System.EventHandler(this.inf_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 110);
+            this.ClientSize = new System.Drawing.Size(310, 133);
+            this.Controls.Add(this.inf);
             this.Controls.Add(this.status);
             this.Controls.Add(this.thewordstatus_duh);
             this.Controls.Add(this.fu);
@@ -96,6 +108,7 @@
         private System.Windows.Forms.Label fu;
         private System.Windows.Forms.Label thewordstatus_duh;
         private System.Windows.Forms.Label status;
+        private System.Windows.Forms.Button inf;
     }
 }
 
